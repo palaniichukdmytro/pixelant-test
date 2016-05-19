@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="objects" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 721 537.3" style="enable-background:new 0 0 721 537.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E85822;}
+	.st1{fill:#F5B335;}
+	.st2{fill:#F5DD48;}
+	.st3{fill:#CFD0D1;}
+	.st4{fill:#00253A;}
+	.st5{fill:#245370;}
+	.st6{fill:#3D7A90;}
+	.st7{font-family:'Oswald-Light';}
+	.st8{font-size:67.6452px;}
+	.st9{letter-spacing:1;}
+	.st10{font-family:'OpenSans-Light';}
+	.st11{font-size:29.9966px;}
+	.st12{opacity:0.2;fill:url(#SVGID_1_);}
+</style>
+<g>
+	<g>
+		<g>
+			
+				<rect x="320.6" y="18.1" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 665.5402 -152.0736)" class="st0" width="87.4" height="87.4"/>
+			<polygon class="st1" points="364.3,123.6 426.1,61.8 487.9,123.6 426.1,185.4 			"/>
+			<polygon class="st2" points="424.5,63.3 486.3,1.5 548.1,63.3 486.3,125.1 			"/>
+			<polygon class="st2" points="180.4,63.3 242.2,1.5 304,63.3 242.2,125.1 			"/>
+			
+				<rect x="444" y="141.5" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 963.4977 -28.6608)" class="st3" width="87.4" height="87.4"/>
+			
+				<rect x="258.8" y="79.9" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 603.7381 -2.8968)" class="st1" width="87.4" height="87.4"/>
+			<polygon class="st3" points="178.9,185.4 240.7,123.6 302.5,185.4 240.7,247.2 			"/>
+		</g>
+		<g>
+			<polygon class="st4" points="302.5,185.4 364.3,123.6 426.1,185.4 364.3,247.2 			"/>
+			
+				<rect x="382.4" y="203.5" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 902.1074 120.6539)" class="st5" width="87.4" height="87.4"/>
+			<polygon class="st6" points="425.9,308.8 487.7,247 549.5,308.8 487.7,370.6 			"/>
+			<polygon class="st5" points="240.7,247.2 302.5,185.4 364.3,247.2 302.5,308.9 			"/>
+			
+				<rect x="320.6" y="265.2" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 840.2667 269.8058)" class="st6" width="87.4" height="87.4"/>
+			
+				<rect x="197" y="265.3" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 629.3118 357.2248)" class="st6" width="87.4" height="87.4"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 206.5308 494.0688)" class="st5 st7 st8 st9">TEXT SPACE</text>
+	<text transform="matrix(1 0 0 1 244.9487 537.3071)" class="st6 st10 st11">LOREM IPSUM</text>
+	
+		<radialGradient id="SVGID_1_" cx="190.2287" cy="1402.7239" r="31.9978" gradientTransform="matrix(11.2657 0 0 1.0804 -1782.5658 -1107.1498)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#000000"/>
+		<stop  offset="2.680647e-02" style="stop-color:#151515"/>
+		<stop  offset="9.566015e-02" style="stop-color:#464646"/>
+		<stop  offset="0.1701" style="stop-color:#727272"/>
+		<stop  offset="0.2484" style="stop-color:#989898"/>
+		<stop  offset="0.3316" style="stop-color:#B8B8B8"/>
+		<stop  offset="0.4212" style="stop-color:#D2D2D2"/>
+		<stop  offset="0.5196" style="stop-color:#E6E6E6"/>
+		<stop  offset="0.6313" style="stop-color:#F4F4F4"/>
+		<stop  offset="0.7678" style="stop-color:#FDFDFD"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</radialGradient>
+	<path class="st12" d="M721,408.4c0,19.1-161.4,34.6-360.5,34.6C161.4,442.9,0,427.4,0,408.4c0-19.1,161.4-34.6,360.5-34.6
+		C559.6,373.8,721,389.3,721,408.4z"/>
+</g>
+</svg>

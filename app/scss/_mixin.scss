@@ -1,0 +1,268 @@
+//header mixin
+@mixin header-form {
+    height: 29px;
+    border-radius: 0;
+    border: 1px solid $white;
+    background-color: $gray;
+    font-style: italic;
+    margin-right: 1rem;
+}
+
+@mixin search-icon {
+    top: 0;
+    font-size: 2.4rem;
+    color: $white;
+    vertical-align: middle;
+}
+
+@mixin placeholder {
+    ::-webkit-input-placeholder {
+        @content
+    }
+    :-moz-placeholder {
+        @content
+    }
+    ::-moz-placeholder {
+        @content
+    }
+    :-ms-input-placeholder {
+        @content
+    }
+}
+
+@mixin tools__menu-xs {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+
+@mixin header-navbar {
+    background: $white;
+    padding: 20px 0;
+    margin-bottom: 0;
+    box-shadow: none;
+}
+
+@mixin hvr-rectangle-out {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: $white;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+@mixin hvr-rectangle-out-before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $light-gray;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+@mixin navbar-logo {
+    font-family: $poppins;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+@mixin navbar-link {
+    color: $black;
+    font-size: 1.8rem;
+    font-family: $poppins;
+    font-weight: 400;
+}
+
+@mixin navbar-glyphicon {
+    color: $blue;
+    font-size: 1.8rem;
+    vertical-align: top;
+}
+
+@mixin navbar-dropdown {
+    width: 179px;
+    height: 221px;
+    background-color: $blue;
+    right: auto;
+    left: 0;
+}
+
+@mixin navbar-dropdown-link {
+    font-family: $poppins;
+    font-size: 16px;
+    color: $white;
+    padding: 0px 20px;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+@mixin navbar-dropdown-before {
+    position: absolute;
+    top: -10px;
+    left: 25%;
+    display: inline-block;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ccc;
+    border-left: 10px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+}
+
+@mixin navbar-dropdown-after {
+    position: absolute;
+    top: -10px;
+    left: 25%;
+    display: inline-block;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid $blue;
+    border-left: 10px solid transparent;
+    content: '';
+}
+
+//slider
+@mixin slider-text {
+    padding: 4rem;
+    background: $white;
+    text-align: center;
+    position: static;
+}
+
+@mixin slider-text-btn {
+    width: 160px;
+    height: 40px;
+    border-radius: 0;
+    background: $light-blue;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border-color: none;
+}
+
+@mixin slider-text-breakpoints {
+    position: absolute;
+    z-index: 9999;
+    opacity: 0.9;
+    text-align: left;
+    width: 60%;
+}
+
+/// Wobble To Bottom Right 
+@mixin hvr-wobble-to-bottom-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin hvr-wobble-to-bottom-right-on {
+    -webkit-animation-name: hvr-wobble-to-bottom-right;
+    animation-name: hvr-wobble-to-bottom-right;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+//devider 
+@mixin devider {
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    margin: 20px auto;
+}
+
+@mixin devider-inner {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-color: $devider-gray;
+    width: 40px;
+    height: 40px;
+}
+
+@mixin devider-line {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    width: 9999px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: inherit;
+}
+
+//slider with logo
+@mixin owl-navigation {
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    color: $light-gray;
+    font-size: 4rem;
+}
+
+//quotes
+@mixin quotes-triangle {
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 39px;
+    border-right-width: 0px;
+    border-top: 20px solid $white;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+//company info
+@mixin form-btn {
+    width: 109px;
+    height: 34px;
+    background-color: $blue;
+    border-radius: 0;
+    border: 1px solid $light-blue;
+    margin-bottom: 2rem;
+    float: right;
+}
+
+//footer 
+@mixin hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
